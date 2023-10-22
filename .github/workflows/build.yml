@@ -97,10 +97,6 @@ gcc
 libstdc++6 
 make 
 patch 
-
-
-
-
     - name: Update locales
       run: |
         sudo locale-gen --no-purge en_US.UTF-8 ru_RU.UTF-8
